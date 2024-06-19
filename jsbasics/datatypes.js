@@ -9,20 +9,35 @@
 
 //coversion
 
-let random="3";
-let converttonumber=Number(random);
-console.log(typeof random);
-console.log(typeof converttonumber);
-random="33abc";
-converttonumber=Number(random);
-console.log(typeof random);
-console.log(typeof converttonumber);
-console.log(converttonumber) //as 33abc is not a number hence o/p NaN
-random=null;
-converttonumber=Number(null);
-console.log(typeof random);
-console.log(typeof converttonumber);
-console.log(converttonumber) //null ka number 0 aur undefined ka number NaN // true ka number 1 aur false ka zero
+// let random="3";
+// let converttonumber=Number(random);
+// console.log(typeof random);
+// console.log(typeof converttonumber);
+// random="33abc";
+// converttonumber=Number(random);
+// console.log(typeof random);
+// console.log(typeof converttonumber);
+// console.log(converttonumber) //as 33abc is not a number hence o/p NaN
+// random=null;
+// converttonumber=Number(null);
+// console.log(typeof random);
+// console.log(typeof converttonumber);
+// console.log(converttonumber) //null ka number 0 aur undefined ka number NaN // true ka number 1 aur false ka zero
+
+//conversion of dataype to boolean
+// 1 => true; 0 => false
+// "" => false
+// "hitesh" => true
+
+//operators
+
+let str1="Mahan"
+let str2=" Vyakti"
 
 
-
+// console.log(str1+str2);
+// console.log(3+4*5%3)
+console.log("1"+2);
+console.log(1+"2");
+console.log("1"+2 +2);
+console.log(1+2 +"2");
