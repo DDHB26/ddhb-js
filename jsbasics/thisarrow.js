@@ -62,7 +62,7 @@ const chai =  () => {
 
 
 
-//const addTwo = (num1, num2) => ({username: "hitesh"}) //it will not run without () because object banane kai liye hai {} ye lagta toh execution kai liye we have to wrap object under () and o/p will be username:hitesh with considering the fact that we arve providing 2 numbers which are not in use also
+//const addTwo = (num1, num2) => ({username: "hitesh"}) //it will not run without () because by using this () we wrap all line of code in block which can be executed and also samjhne kai liye we can say that kai object banane kai liye hai {} ye lagta toh execution kai liye we have to wrap object under () and o/p will be username:hitesh with considering the fact that we arve providing 2 numbers which are not in use also
 
 
 console.log(addTwo(3, 4))
