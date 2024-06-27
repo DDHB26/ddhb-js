@@ -6,7 +6,7 @@
 (function chai(){
     // named IIFE
     console.log(`DB CONNECTED`)
-})();                                     //impppppppp ; lagana COMPULSARY hai in IIFE
+})();                                     //impppppppp ; lagana COMPULSARY hai in IIFE , TO INDICATE THE END OF IIFE 
 
 //()() here the first () was to wrap function in it as a block and another () was for the call of execution
 
